@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 AVALANCHE_FOLDER="$GOPATH/src/github.com/ava-labs/gecko"
 
@@ -25,3 +25,4 @@ if [[ "${reslog}" != "" ]] || [[ $1 = "force" ]] ; then
 else
     echo "Already up to date"
     exit 0
+fi
